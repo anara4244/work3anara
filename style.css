@@ -1,0 +1,44 @@
+body {
+    background-color: aqua;
+}
+.main {
+    width: 250px;
+    height: 200px;
+    border: 4px solid yellow;
+    /* background-color: blueviolet; */
+    background-image: url(https://i.pinimg.com/236x/8a/de/fe/8adefe5af862b4f9cec286c6ee4722cb.jpg);
+    background-size: cover;
+    background-position: 10%;
+    border-radius: 0px 80px 0px 80px;
+    transition: 2s;
+    margin-top: 200px;
+}
+.main:hover{
+    box-shadow: 0px 0px 20px 9px yellow;
+    transition: 1s;
+    transform: rotate(360deg);
+    /* background-color: chartreuse; */
+    background-image: url(https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg);
+}
+.круг {
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    /* background-color: brown; */
+    background-image: url(https://klike.net/uploads/posts/2019-05/1556708032_1.jpg);
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 50%; 
+    transition: 4px;
+    margin-top: 200px;
+
+}
+.круг:hover{
+    box-shadow: 1px 1px 20px 8px red;
+    transition: 2s;
+    transform: rotate(360deg);
+    /* background-color: blue; */
+    background-image: url(https://img1.akspic.ru/previews/7/4/7/9/6/169747/169747-ikanvas-art-pechat_na_holste-poster-oblako-500x.jpg);
+    
+}
+    
